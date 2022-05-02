@@ -11,6 +11,23 @@ basic Latin alphabet, some extra Latin letters, the Arabic numerals and a small 
 procedural signals (prosigns) as standardized sequences of short and long signals called "dots" and
 "dashes", or "dits" and "dahs", as in amateur radio practice. (Wikipedia.org, 2017)
 
+![MorseCode](https://github.com/MelVincentVallecera/Worse-Morse-Implementation/blob/main/readme-images/img_001.jpg)
+
+In this problem, you will be given a valid Morse code of dots and dashes and then translate them into
+their corresponding letters. However, due to a bug found in the system, the codes were concatenated
+without any delimiter. Thus, instead of getting
+
+![SampleCase](https://github.com/MelVincentVallecera/Worse-Morse-Implementation/blob/main/readme-images/img_002.jpg)
+
+separately as your input, your input would look like
+```
+"-..-----."
+```
+Consequently, this would require brute force to enumerate all of the possible corresponding letters:
+
+![Output](https://github.com/MelVincentVallecera/Worse-Morse-Implementation/blob/main/readme-images/img_003.jpg)
+
+Write a program that would decode a valid input recursively. Please use recursion.
 ### Executing program
 
 * Run the program in your IDE.
@@ -18,6 +35,7 @@ procedural signals (prosigns) as standardized sequences of short and long signal
 ```
 -..-----.
 ```
+* Then press enter.
 ```
 DMMN
 DMMTE
