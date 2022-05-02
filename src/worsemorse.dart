@@ -14,8 +14,8 @@ var alphabet = ["A", "B", "C", "D", "E", "F",
 //main function
 void main() {
   String? input = stdin.readLineSync(); //get user string input
-  //var str = '-..-----.';
-  //print('$str');
+  //var input = '-..-----.';
+  //print('$input');
   morseToWord(input, ""); //calls function
 }
 //recursion function
